@@ -1,0 +1,20 @@
+[jkolla@disci Parallel]$ ./read_write
+
+this is final minimum value  57
+
+Runtime of 1 threads = 0.536633 sec
+
+
+this is final minimum value  57
+
+Runtime of 2 threads = 0.266273 sec
+
+
+this is final minimum value  57
+
+Runtime of 4 threads = 0.134839 sec
+
+
+this is final minimum value  57
+
+Runtime of 8 threads = 0.085566 sec

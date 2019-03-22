@@ -1,0 +1,9 @@
+[jkolla@disci Parallel]$ ./test
+Minimum value found: 57
+Runtime of 1 threads = 0.376502 seconds
+Minimum value found: 57
+Runtime of 2 threads = 0.229230 seconds
+Minimum value found: 57
+Runtime of 4 threads = 0.207891 seconds
+Minimum value found: 57
+Runtime of 8 threads = 0.067208 seconds

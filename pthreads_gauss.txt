@@ -1,0 +1,135 @@
+For matrix size = 1000
+
+
+
+[jkolla@disci ~]$ gcc -lpthread pthreads_gauss.c
+[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+1
+
+Initialising Inputs...
+Elapsed time = 1010.67 ms.
+Elapsed time according to <times()> = 50500 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 50500 ms.
+The system CPU time for parent = 0 ms.
+
+RESULT:[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+2
+
+Initialising Inputs...
+Elapsed time = 579.097 ms.
+Elapsed time according to <times()> = 29000 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 57500 ms.
+The system CPU time for parent = 0 ms.
+
+RESULT:[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+3
+
+Initialising Inputs...
+Elapsed time = 428.877 ms.
+Elapsed time according to <times()> = 21500 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 63000 ms.
+The system CPU time for parent = 500 ms.
+
+RESULT:[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+4
+
+Initialising Inputs...
+Elapsed time = 335.793 ms.
+Elapsed time according to <times()> = 17000 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 65000 ms.
+The system CPU time for parent = 500 ms.
+
+RESULT:[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+8
+
+Initialising Inputs...
+Elapsed time = 224.923 ms.
+Elapsed time according to <times()> = 11500 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 78000 ms.
+The system CPU time for parent = 1500 ms.
+
+
+
+For matrix size < 10 
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+2
+
+Initialising Inputs...
+
+A =
+         1.840  ,  1.198  ,  1.477  ,  1.916  ;
+         1.394  ,  1.335  ,  1.629  ,  1.636  ;
+         1.783  ,  1.768  ,  1.365  ,  1.717  ;
+         1.798  ,  1.278  ,  1.513  ,  1.142  ;
+
+B = [ 1.912  ;  1.554  ;  1.952  ;  1.607  ]
+Elapsed time = 0.357 ms.
+Elapsed time according to <times()> = 0 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 0 ms.
+The system CPU time for parent = 0 ms.
+
+RESULT:
+X = [ 0.593  ;  0.237  ; -0.129  ;  0.380  ]
+[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+4
+
+Initialising Inputs...
+
+A =
+         1.840  ,  1.198  ,  1.477  ,  1.916  ;
+         1.394  ,  1.335  ,  1.629  ,  1.636  ;
+         1.783  ,  1.768  ,  1.365  ,  1.717  ;
+         1.798  ,  1.278  ,  1.513  ,  1.142  ;
+
+B = [ 1.912  ;  1.554  ;  1.952  ;  1.607  ]
+Elapsed time = 0.464 ms.
+Elapsed time according to <times()> = 0 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 0 ms.
+The system CPU time for parent = 0 ms.
+
+RESULT:
+X = [ 0.593  ;  0.237  ; -0.129  ;  0.380  ]
+[jkolla@disci ~]$ ./a.out
+
+ENTER NUMBER OF THREADS TO BE EXECUTED:
+8
+
+Initialising Inputs...
+
+A =
+         1.840  ,  1.198  ,  1.477  ,  1.916  ;
+         1.394  ,  1.335  ,  1.629  ,  1.636  ;
+         1.783  ,  1.768  ,  1.365  ,  1.717  ;
+         1.798  ,  1.278  ,  1.513  ,  1.142  ;
+
+B = [ 1.912  ;  1.554  ;  1.952  ;  1.607  ]
+Elapsed time = 0.67 ms.
+Elapsed time according to <times()> = 0 ms.
+CPU times are accurate to the nearest 500 ms.
+The total CPU time for parent = 0 ms.
+The system CPU time for parent = 0 ms.
+
+RESULT:
+X = [ 0.593  ;  0.237  ; -0.129  ;  0.380  ]
+
+
